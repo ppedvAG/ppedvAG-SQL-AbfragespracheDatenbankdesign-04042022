@@ -20,10 +20,15 @@ SELECT *
 FROM Orders
 
 -- Aufgabe: Geben Sie alle Datensätze der Tabelle "Employees" zurück?
-
+SELECT *
+FROM Employees
 
 -- Aufgabe: Ausgabe: Die Produktnummer, Produktname, die Kosten eines Produkts und die Nummer des Lieferers (SupplierID) aus der Tabelle "Products".
-
+SELECT ProductID
+      ,ProductName
+	  ,UnitPrice
+	  ,SupplierID
+FROM Products
 
 -- Systemfunktion
 SELECT GETDATE()
