@@ -26,3 +26,30 @@ FROM Orders
 
 
 -- Systemfunktion
+SELECT GETDATE()
+
+/*
+- DD Tag
+- YY Jahr
+- QQ Quartal
+- MM Monat
+- WW Woche
+- MI Minute
+- DW Namen vom Tag        --> DW = 1 = Montag, DW = 4 = Donnerstag
+*/
+
+-- DATEADD
+-- Syntax: DATEADD(<Intervall (Sollen Tage dazugerechnet werden)>,<Anzahl, der dazugerechneten Tage|Monate|Jahr...>,<Datum>)
+SELECT DATEADD(DD,1,GETDATE())
+SELECT DATEADD(MM,2,'01.01.2022')
+SELECT DATEADD(MI,30,GETDATE())
+
+
+-- DATEDIFF
+-- Syntax: DATEDIFF(<Interval (Was soll zurückgegeben werden?)>,<Startdatum>, <Enddatum>)
+SELECT DATEDIFF(DD,'01.01.2022',GETDATE())
+-- Ergebnis in Tagen = 04.04.2022 - 01.01.2022
+--                     Enddatum   - Startdatum
+
+-- Wie viele Monate sind es noch bis zum 1. Mai 2078?
+SELECT DATEDIFF(MM,GETDATE(),'01.05.2078')
