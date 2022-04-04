@@ -70,3 +70,33 @@ SELECT DATEPART(YY,GETDATE())
 SELECT YEAR(GETDATE())
 	  ,MONTH(GETDATE())
 	  ,DAY(GETDATE())
+
+
+
+
+-- LTRIM und RTRIM
+SELECT '                 Otto'
+SELECT LTRIM('                Otto')
+
+
+-- LEFT und RIGHT
+-- Syntax: LEFT|RIGHT (<Zeichenkette>, <Anzahl, wie zurückgegeben werden sollen>)
+SELECT LEFT('123456789',3)
+SELECT RIGHT('ABCDEFGH',3)
+
+
+
+-- SUBSTRING
+SELECT SUBSTRING('Max Markus Mustermann',5,6)
+
+-- Aufgabe: Geben Sie aus 'SQL Server - Abfragesprache und Datenbankdesign' das Wort 'Abfragesprache' zurück!
+SELECT SUBSTRING('SQL Server - Abfragesprache und Datenbankdesign',14,14)
+
+
+-- REVERSE
+SELECT REVERSE('ppedv AG')
+      ,REVERSE('GA vdepp')
+
+
+-- STUFF
+SELECT STUFF('maxmustermann@example.de',4,10,'**********')
