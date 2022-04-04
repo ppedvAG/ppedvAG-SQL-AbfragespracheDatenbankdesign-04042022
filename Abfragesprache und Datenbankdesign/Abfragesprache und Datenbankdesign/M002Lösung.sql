@@ -14,8 +14,3 @@ FROM Customers
 
 
 
-
-
-
-
-SELECT REPLICATE('x',LEN('1234567890')-3)
