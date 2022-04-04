@@ -14,3 +14,6 @@ FROM Customers
 
 
 
+-- Aufgabe 2 
+SELECT CONCAT(REPLICATE('X',LEN(Phone)-3),RIGHT(Phone,3))
+FROM Customers
