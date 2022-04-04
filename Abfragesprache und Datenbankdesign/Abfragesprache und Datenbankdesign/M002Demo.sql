@@ -100,3 +100,11 @@ SELECT REVERSE('ppedv AG')
 
 -- STUFF
 SELECT STUFF('maxmustermann@example.de',4,10,'**********')
+
+-- CONCAT
+SELECT FirstName, LastName, CONCAT(FirstName,' ',LastName) AS FullName
+FROM Employees
+
+
+-- LEN
+SELECT LEN('Alem')
