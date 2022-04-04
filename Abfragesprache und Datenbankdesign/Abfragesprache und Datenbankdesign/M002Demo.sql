@@ -108,3 +108,8 @@ FROM Employees
 
 -- LEN
 SELECT LEN('Alem')
+
+
+-- CHARINDEX
+SELECT CHARINDEX(' ','Max Markus Mustermann',5)
+SELECT CHARINDEX('m','Max Mustermann')
