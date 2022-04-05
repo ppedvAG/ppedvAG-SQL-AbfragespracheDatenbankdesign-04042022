@@ -9,6 +9,7 @@ Bei Fragen eine E-Mail an alemm@ppedv.de
 - [x] Vorstellung
 - [x] Getting started: SQL Server und Microsoft SQL Server Management Studio
 - [x] Einfache Abfragen (SELECT,FROM)
+- [ ]
 
 ## Tag 2
 
