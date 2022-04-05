@@ -31,6 +31,12 @@
           <AssociatedConnUserName />
           <FullPath>M002Lösung.sql</FullPath>
         </FileNode>
+        <FileNode Name="Wiederholung Tag1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Wiederholung Tag1.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
