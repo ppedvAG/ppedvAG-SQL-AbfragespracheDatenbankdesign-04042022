@@ -28,3 +28,10 @@ WHERE ProductID BETWEEN 10 AND 15
 SELECT ProductID, ProductName, UnitPrice, SupplierID
 FROM Products
 WHERE SupplierID IN(2,7,15)
+
+-- Aufgabe 7
+SELECT ProductID, ProductName, SupplierID, UnitsInStock, UnitPrice
+FROM Products
+WHERE SupplierID IN(5,10,15) AND
+      UnitsInStock > 10 AND
+	  UnitPrice < 100
