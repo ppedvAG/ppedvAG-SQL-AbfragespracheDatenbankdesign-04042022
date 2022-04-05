@@ -66,4 +66,8 @@ FROM Customers
 
 
 -- Aufgabe: Geben Sie alle Kunden aus, die ein %-Zeichen im Firmennamen haben.
+
+SELECT *
+FROM Customers 
+WHERE CompanyName LIKE '%[%]%'
 */
