@@ -6,12 +6,18 @@ Bei Fragen eine E-Mail an alemm@ppedv.de
 
 ## Tag 1
 
-- [ ] Vorstellung
-- [ ] Getting started: SQL Server und Microsoft SQL Server Management Studio
-- [ ] Einfache Abfragen (SELECT,FROM)
+- [x] Vorstellung
+- [x] Getting started: SQL Server und Microsoft SQL Server Management Studio
+- [x] Einfache Abfragen (SELECT,FROM)
 
 ## Tag 2
 
-- [ ] Wiederholung zu Tag 1
-- [ ] Datentypen in SQL; CONVERT und CAST
-- [ ] WHERE + Wildcards
+- [x] Wiederholung zu Tag 1
+- [x] Datentypen in SQL; CONVERT und CAST
+- [x] WHERE + Wildcards
+
+## Tag 3
+
+- [ ] Wiederholung zu Tag 2
+- [ ] JOINs
+- [ ] DISTINCT, TOP und ORDER BY
