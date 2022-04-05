@@ -9,3 +9,9 @@ Bei Fragen eine E-Mail an alemm@ppedv.de
 - [ ] Vorstellung
 - [ ] Getting started: SQL Server und Microsoft SQL Server Management Studio
 - [ ] Einfache Abfragen (SELECT,FROM)
+
+## Tag 2
+
+- [ ] Wiederholung zu Tag 1
+- [ ] Datentypen in SQL; CONVERT und CAST
+- [ ] WHERE + Wildcards
