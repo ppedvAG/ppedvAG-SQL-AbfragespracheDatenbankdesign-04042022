@@ -42,13 +42,17 @@ CHAR -> VARCHAR -> NVARCHAR -> TINYINT -> INT -> DECIMAL -> TIME -> DATE -> DATE
 */
 DECLARE @Datum AS DATETIME = GETDATE()
 
-SELECT CONVERT(varchar(10),@Datum,101) AS Deutschland
+SELECT CONVERT(varchar(10),@Datum,101) 
       ,CONVERT(varchar(10),@Datum,102) 
-      ,CONVERT(varchar(10),@Datum,104)
+      ,CONVERT(varchar(10),@Datum,104) AS Deutschland
 
 
 
 -- Deklarieren Sie folgende Variablen:
-DECLARE @Datum2 AS DATETIME = '2001-10-24'
+DECLARE @Datum2 AS DATETIME = '2005-12-10'
 
 -- @Datum2 zu einem VARCHAR konvertieren, der 10 Zeichen annimmt. Das Datum soll in UK, USA und Deutschland gezeigt werden.
+
+SELECT CONVERT(VARCHAR(10),@Datum2,101)
+      ,CONVERT(VARCHAR(10),@Datum2,102)
+	  ,CONVERT(VARCHAR(10),@Datum2,104)
