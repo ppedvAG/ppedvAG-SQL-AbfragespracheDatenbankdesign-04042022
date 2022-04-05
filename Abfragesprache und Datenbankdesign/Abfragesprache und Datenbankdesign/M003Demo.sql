@@ -56,3 +56,11 @@ DECLARE @Datum2 AS DATETIME = '2005-12-10'
 SELECT CONVERT(VARCHAR(10),@Datum2,101)
       ,CONVERT(VARCHAR(10),@Datum2,102)
 	  ,CONVERT(VARCHAR(10),@Datum2,104)
+
+/*
+In Bezug auf Style: FORMAT(<Spaltenname|Variable|Wert>, 'dd.MM.yyyy'
+Das Datum wird so angezeigt, wie wir es im 2ten Parameter festgelegt haben (dd.MM.yyyy)
+
+SELECT FORMAT(OrderDate, 'dd.MM.yyyy')
+FROM Orders
+*/
