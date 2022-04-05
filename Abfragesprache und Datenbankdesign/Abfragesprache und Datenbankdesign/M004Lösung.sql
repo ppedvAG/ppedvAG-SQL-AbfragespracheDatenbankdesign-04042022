@@ -35,3 +35,12 @@ FROM Products
 WHERE SupplierID IN(5,10,15) AND
       UnitsInStock > 10 AND
 	  UnitPrice < 100
+
+
+-- Aufgabe 8
+SELECT OrderID
+      ,FORMAT(ShippedDate,'dd.MM.yyyy')  AS Lieferdatum
+	  ,FORMAT(RequiredDate,'dd.MM.yyyy') AS Wunschtermin
+	  ,DATEDIFF(DD,RequiredDate,ShippedDate) AS Lieferverzögerung
+FROM Orders
+WHERE DATEDIFF(DD,RequiredDate,ShippedDate) IS NOT NULL
