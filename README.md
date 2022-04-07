@@ -21,4 +21,10 @@ Bei Fragen eine E-Mail an alemm@ppedv.de
 
 - [ ] Wiederholung zu Tag 2
 - [ ] JOINs
+- [ ] 
+
+## Tag 4
+- [ ] Wiederholung zu Tag 3
+- [ ] UNION EXCEPT INTERSECT
 - [ ] DISTINCT, TOP und ORDER BY
+- [ ] SubQueries

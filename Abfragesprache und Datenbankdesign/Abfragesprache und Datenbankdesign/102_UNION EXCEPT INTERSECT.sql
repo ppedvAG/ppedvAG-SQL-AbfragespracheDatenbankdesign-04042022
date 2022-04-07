@@ -17,6 +17,8 @@ INTO KundenEU
 
   --UNION fügt die Ergenisse aus mehreren Abragen zu einem Ergebnis zusammen
 
+  --der UNION IST EIN!!! SELECT 
+
   select Customerid, Companyname, country as Land, city from customers
   UNION
   select convert(char(5),employeeid), lastname, country , city from employees
