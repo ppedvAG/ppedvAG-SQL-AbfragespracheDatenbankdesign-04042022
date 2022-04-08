@@ -28,3 +28,16 @@ Bei Fragen eine E-Mail an alemm@ppedv.de
 - [ ] UNION EXCEPT INTERSECT
 - [ ] DISTINCT, TOP und ORDER BY
 - [ ] SubQueries
+
+
+## Tag 5
+- [ ] Wiederholung zu Tag 4
+- [ ] temp Tabelle
+- [ ] Group by und Aggregate
+- [ ] INS UP DEL CREATE DROP ALTER
+
+## Tag 6
+- [ ] Wiederholung zu Tag 5
+- [ ] Schleifen , IF , CASE 
+- [ ] Variablen
+- [ ] Prozeduren , Sichten , Funtionen
