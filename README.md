@@ -41,3 +41,15 @@ Bei Fragen eine E-Mail an alemm@ppedv.de
 - [ ] Schleifen , IF , CASE 
 - [ ] Variablen
 - [ ] Prozeduren , Sichten , Funtionen
+
+## Tag 7
+- [ ] Wiederholung zu Tag 5
+- [ ] temp Tabellen 
+- [ ] Aggergate
+- [ ] INS UP DEL create drop alter
+
+## Tag 8
+- [ ] Wiederholung zu Tag 5
+- [ ] Schleifen , IF , CASE 
+- [ ] Variablen
+- [ ] Prozeduren , Group by having
